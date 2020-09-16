@@ -1,0 +1,108 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* -------------- */
+h1 {
+	color: tomato;
+	font-size: x-large;
+}
+.round {
+	border-radius: 100px;
+}
+ol {
+	color: teal;
+}
+.color {
+	color: violet;
+}
+li.text {
+	color: yellowgreen;
+	font-style: oblique;
+}
+#id-block {
+	color: rgb(238, 130, 215);
+	font: 1em sans-serif;
+}
+.block span.text {
+	color: midnightblue;
+	font-size: xx-large;
+	font-style: italic;
+}
+.content {
+	color: rgb(207, 11, 11);
+}
+span.text {
+	color: rgb(18, 18, 211);
+	font-style: italic;
+}
+p.text {
+	font-variant: small-caps;
+	color: rgb(75, 4, 75);
+}
+.text span a {
+	color: red;
+	text-decoration: underline;
+}
+.text p {
+	color: rgb(13, 23, 160);
+	font-style: inherit;
+}
+.text p span {
+	text-decoration: line-through;
+}
+.text p a {
+	color: red;
+text-decoration: underline;
+}
+ul {
+	color: rgb(238, 130, 215);
+}
+.about__link {
+	color: royalblue;
+	text-decoration: underline;
+}
+.about__text {
+color: peru;
+} 
+.about__text a {
+	font-style: italic;
+}
+.about__text span {
+	background-color: plum;
+}
+.about__subtitle {
+color: red;
+font-size: x-large;
+}
+h3 {
+	color: rgb(13, 23, 160);
+	font-size: x-large;
+}
